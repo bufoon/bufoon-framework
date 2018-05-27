@@ -16,12 +16,4 @@
         <module>bufoon-parent</module>
     </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.bufoon</groupId>
-            <artifactId>bufoon-commons</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
-
 </project>

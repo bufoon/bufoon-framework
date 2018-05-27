@@ -1,15 +1,12 @@
 package com.bufoon.storage.zk.config;
 
 import com.bufoon.commons.base.BufoonException;
-import com.bufoon.commons.utils.PropertiesUtil;
 import com.bufoon.commons.utils.StringUtils;
 import com.bufoon.storage.zk.prop.CuratorProperties;
-import com.sun.deploy.ui.AppInfo;
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.retry.RetryNTimes;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -12,7 +12,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  */
 @ConfigurationProperties(prefix = "bufoon.storage.redis")
 public class CustomRedisProperties {
+    /**
+     * Jedis客户端
+     */
     private RedisProperties jedis;
+    /**
+     * Redisson客户端啊
+     */
     private RedissonProperties redisson;
 
     public RedisProperties getJedis() {

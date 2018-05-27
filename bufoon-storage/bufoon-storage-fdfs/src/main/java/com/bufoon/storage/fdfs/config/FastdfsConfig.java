@@ -1,19 +1,12 @@
 package com.bufoon.storage.fdfs.config;
 
-import com.alibaba.fastjson.JSON;
-import com.bufoon.commons.base.ProjectInfo;
 import com.bufoon.storage.fdfs.FastdfsPool;
 import com.bufoon.storage.fdfs.fastdfs.*;
-import com.sun.deploy.ui.AppInfo;
-import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 /**
  * @Author: bufoon
